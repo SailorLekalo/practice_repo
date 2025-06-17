@@ -25,3 +25,6 @@ class Solution(object):
             p2 -= 1
 
         return True
+
+# Runtime: O(N)
+# Memory: O(1)
