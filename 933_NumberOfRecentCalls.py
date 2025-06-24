@@ -12,6 +12,7 @@ class RecentCounter(object):
         :rtype: int
         """
         self.recent_calls.append(t)
+        # forget calls came more than 3000 seconds ago
         while t - self.recent_calls[0] > 3000:
             self.recent_calls.popleft()
         return len(self.recent_calls)
