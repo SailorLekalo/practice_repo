@@ -16,6 +16,7 @@ public:
             return 0;
         }
 
+        // current node subtree adds 1 to height of child subtree with max height
         return std::max(maxDepth(root->left), maxDepth(root->right)) + 1;
     }
 };
