@@ -24,7 +24,7 @@ B = [(2, 3), (7, -2)]
 #include <sstream>
 #include <string>
 
-std::vector<std::pair<int, int>> solve(const std::vector<std::pair<int, int>>& A, const std::vector<std::pair<int, int>>& B) {
+std::pair<int, int> solve(const std::vector<std::pair<int, int> > &A, const std::vector<std::pair<int, int> > &B) {
     std::vector<std::pair<int, int>> result;
     result.reserve(A.size() + B.size());
 
