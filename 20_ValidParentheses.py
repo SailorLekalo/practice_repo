@@ -23,12 +23,12 @@ class Solution(object):
 
         return not curr
 
+# Runtime: O(N)
+# Memory: O(N)
+
 
 """
 ()[]{}
 ([])   
 ([})   
 """
-
-# Runtime: O(N)
-# Memory: O(N)
